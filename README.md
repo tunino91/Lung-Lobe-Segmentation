@@ -1,6 +1,6 @@
 # Lung-Lobe-Segmentation
 
-# Challenges
+### Challenges
 Right lung has 3 left lung has 2 lobes
 
 Fissures are not visible at first look
@@ -14,7 +14,7 @@ Manual solution is currently being used by my program.
 User have to look at the output of the Fissureness and determine a seed position as well as an upper and lower intensity threshold to enhance the fissures.
 If the seed and threshold can be found automatically, then the whole process becomes fully automated. 
 
-# Followed Steps
+### Followed Steps
 
 
 Preprocessing: Using N4BiasFieldCorrectionImageFilter and GradientAnisotropicDiffusionImageFilter
@@ -26,4 +26,3 @@ Bronchi Segmentation: 1 seed is chosen on the bronchi of MaskedLung and Confiden
 Mask Bronchi: Mask out the bronchi from the lung to be able to find the vessels better later on.
 
 Find Vessels: HessianRecursiveGaussianImageFilter and Hessian3DToVesselnessMeasureImageFilter are used to calculate the Vessels image.
-
