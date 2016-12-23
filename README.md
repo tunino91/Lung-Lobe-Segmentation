@@ -26,3 +26,5 @@ Bronchi Segmentation: 1 seed is chosen on the bronchi of MaskedLung and Confiden
 Mask Bronchi: Mask out the bronchi from the lung to be able to find the vessels better later on.
 
 Find Vessels: HessianRecursiveGaussianImageFilter and Hessian3DToVesselnessMeasureImageFilter are used to calculate the Vessels image.
+
+<img width="470" alt="screen shot 2016-12-22 at 6 58 40 pm" src="https://cloud.githubusercontent.com/assets/19553239/21444148/b229788c-c878-11e6-8a54-ec887c92344f.png">
